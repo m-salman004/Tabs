@@ -125,4 +125,28 @@ p {
         column-gap: 2rem;
       }
     }
-        
+    .btn-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      
+      .tab-btn {
+        padding: 1rem 0;
+        border: none;
+        text-transform: capitalize;
+        font-size: 1rem;
+        display: block;
+        background: whitesmoke;
+        cursor: pointer;
+        transition: var(--transition);
+        letter-spacing: var(--spacing);
+      }
+      .tab-btn:hover:not(.active) {
+        background: var(--clr-primary-10);
+        color: var(--clr-primary-5);
+      }
+      .about-content {
+        border-bottom-left-radius: var(--radius);
+        border-bottom-right-radius: var(--radius);
+        padding: 2rem 1.5rem;
+      }  
