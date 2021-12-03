@@ -119,4 +119,10 @@ p {
     .about-img {
       margin-bottom: 0;
     }
-    
+    .about-center {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+      }
+    }
+        
