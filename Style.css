@@ -98,3 +98,13 @@ p {
     display: grid;
     place-items: center;
   }
+  .title {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: large;
+  }
+  .title p {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
